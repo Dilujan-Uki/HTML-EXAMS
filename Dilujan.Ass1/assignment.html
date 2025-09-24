@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{ border: 5px solid red;
+                  width: 850px;
+                  height: 1000px; 
+                  margin:0.5cm;
+                }
+             h1{ color: green;
+                  margin: 0.5cm;}
+              b{ color: orange;}
+              i{ color: orange;}
+            table{ border: 5px solid;
+                margin:0.5cm;
+                  }
+            td{ background-color: black;
+                 color: aliceblue;
+                 width: 30px;
+                 }
+             td:hover{  background-color: aliceblue;
+                        color: black;
+                        border: 5px solid black;
+                        }     
+             th{ border: solid black;}
+             form{ border:2px solid black;
+                   padding: 25px;
+                   width: 500px;
+                   margin: 0.5cm;
+                   background-color: antiquewhite;
+                  }
+               label{ color: red;}
+               legend{ color: red;}    
+
+
+
+        </style>
+        <title>Assignment</title>
+    </head>
+    <body>
+        <h1> About</h1>
+        <p> It can be intimidating for women to learn and ask questions when they are in an <br>
+            <b>extream minority.</b>While open and welcoming, today's budding developer community <br>
+            is up to <b>91% male.</b>If we can empower more females with the confidence in their <br>
+            tecnogical capabilities <i> we can begin to change this landscape </i>
+        </p>
+        <h1> Our Location </h1>
+        <ul>
+            <li>USA</li>
+            <ul>
+                <li><u><a href="New york">New York</a></u></li>
+                <li><u><a href="Columnus">Columnus</a></u></li>
+                <li><u><a href="Austin">Austin</a></u></li>
+            </ul>
+            <li>World</li>
+            <ul>
+                <li>Ottawa</li>
+                <li>Sydney</li>
+            </ul>
+        </ul>
+        <h1>Upcoming Classes </h1>
+        <table border="1">
+               <tr>
+                <th>Location</th>
+                <th>Topic</th>
+               </tr>
+               <tr>
+                <td>New york</td>
+                <td>JavaScript & jQuery</td>
+               </tr>
+               <tr>
+                <td>San Francisco</td>
+                <td>HTML & CSS</td>
+               </tr>
+        </table>
+         <form>
+            <label for="name" stylesheet></label>
+         
+            <fieldset>
+                <label>Name: </label> <input type="text"> <br> <br>
+                <label>Email: </label> <input type="text"><br> <br>
+                <label> Country:</label>
+                <select name="Country" id="Country">
+                    <option value="New York">New York</option>
+                    <option value="Austin">Austin</option>
+                    <option value="Columnus">Columnus</option>
+                    <option value="Phily">Phily</option>
+                </select>
+                <fieldset>
+                    <legend>Gender</legend>
+                    <Label>Female</Label>
+                    <input type="radio" name="Gender" value="Female">
+                    <label>Male</label>
+                    <input type="radio" name="Gender" value="Male">
+                </fieldset><br>
+                 
+                <label>Experince
+                    <textarea cols="30" rows="5"></textarea>
+                </label>
+
+            </fieldset>
+        </form>
+
+    </body>
+</html> 
